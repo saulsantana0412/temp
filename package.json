@@ -1,0 +1,23 @@
+{
+  "name": "practinafinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom-global": "^3.0.0",
+    "jsdom": "^24.1.1"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom-global"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
